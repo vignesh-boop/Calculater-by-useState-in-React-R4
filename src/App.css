@@ -1,75 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.boardDiv {
-    margin-top: 0px;
-    position: relative;
-    height: 500px;
-    width: 300px;
-    border: 2px solid rgb(184, 120, 24);
-    background-color: burlywood;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 80px;
-    
+#mainDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#bigCircleDiv {
-    height: 170px;
-    width: 170px;
-    border: 2px solid rgb(184, 120, 24);
-    background-color: antiquewhite;
-    border-radius: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
+#image{
+    margin-bottom: 25px;
 }
-.controllingDiv{
-    height: 100px;
-    width: 100px;
-    border: 2px solid rgb(134, 169, 216);
-    background-color: rgb(214, 223, 90);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    font-weight: 900;
-    color: azure;
+#centerMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.controllingDiv:hover{
-    cursor: pointer;
-    background-color: rgb(235, 102, 102);
+#contentMainDiv {
+  width: 330px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
 }
-#overallControllerDiv .controllingDiv:nth-child(2):hover {
-    background-color: rgb(102, 180, 235);
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+#topPara {
+  font-size: 23px;
+}
+label {
+  font-size: 13px;
+  font-weight: bolder;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+
+}
+#password {
+  position: relative;
+}
+#eye {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+#newToAmazonDiv {
+    top: 15px;
+  width: 330px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+#newToAmazonDiv hr {
+    position: absolute;
+    top: 25%;
+    width: 330px;
+    z-index: -1;
 }
 
-
-#overallControllerDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+#newToAmazonText {
+  font-size: 15px;
+  margin: 0 auto;
+  background-color: white;
+  
 }
-#mainDiv{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#continueButton {
+  width: 100%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #fcdd3d;
+  border: none;
 }
-body{
-
-    display: flex;
-    justify-content: center;
+#ancorText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
-    #heading{
-       margin-top: 20px;
-    }
-
+.belowparagraph {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bolder;
+}
+#createNewAccount {
+  width: 90%;
+  height: 30px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  top: 10px;
+}
+.belowparagraph{
+    color: #55BAEA;
+}
