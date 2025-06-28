@@ -1,11 +1,11 @@
 
+import Calculater from './Components/Calculater'
 
-import Parent from './Components/Parent'
 function App() {
   
   return(
     <>
-    <Parent/>
+    <Calculater/>
     </>
   )
 }
